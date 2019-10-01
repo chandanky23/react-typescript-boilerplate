@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "outDir": "./build/",
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    // "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "module": "es6",
+    "target": "es5",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2015",
+      "es2016.array.include",
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "baseUrl": ".src/"
+  },
+  "include": [
+    "./src/client/**/*",
+    "./src/types/**/*.d.ts"
+  ],
+  "exclude": [
+    "./src/client/**/*.test.tsx",
+    "./src/client/**/*.test.ts"
+  ]
+}
